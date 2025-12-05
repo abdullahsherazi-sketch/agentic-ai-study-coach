@@ -32,6 +32,37 @@ Uses Groq (Llama 3.1 8B) via LangChain.
 Interactive **Gradio** web interface showing:
 - Final answer  
 - Sequence of tool calls  
-- High-level reasoning  
+- High-level reasoning
+  
 # 📂 Project Structure
+agentic-ai-study-coach/
+│
+├── app/
+│ ├── agent.py # LangChain agent + tools
+│ └── appui.py # Gradio web interface
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project documentation
 
+
+---
+
+## ▶️ Running the Project
+
+# 1. Clone the repository
+git clone https://github.com/abdullahsherazi-sketch/agentic-ai-study-coach
+cd agentic-ai-study-coach
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Add your Groq API key
+
+# Mac / Linux
+export GROQ_API_KEY="your_key_here"
+
+# Windows (PowerShell)
+setx GROQ_API_KEY "your_key_here"
+
+# 4. Run the Gradio UI
+python app/appui.py
