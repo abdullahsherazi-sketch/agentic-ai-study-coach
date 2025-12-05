@@ -33,17 +33,6 @@ Interactive **Gradio** web interface showing:
 - Final answer  
 - Sequence of tool calls  
 - High-level reasoning
-  
-# 📂 Project Structure
-agentic-ai-study-coach/
-│
-├── app/
-│ ├── agent.py # LangChain agent + tools
-│ └── appui.py # Gradio web interface
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
-
 
 ---
 
