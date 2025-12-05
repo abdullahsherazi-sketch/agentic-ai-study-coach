@@ -1,5 +1,10 @@
 # 🎓 Agentic AI Study Coach
 
+<img width="1901" height="910" alt="image" src="https://github.com/user-attachments/assets/ac6fd3c6-8f45-4fa3-b4d1-717931e63bbf" />
+<img width="1899" height="903" alt="image" src="https://github.com/user-attachments/assets/8f4db9e1-f826-4efa-a76f-6301187404ae" />
+
+
+
 An Agentic AI assistant that builds personalized study plans using:
 
 - **LangChain Tools**
